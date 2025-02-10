@@ -1,0 +1,32 @@
+.events-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.filters input {
+    padding: 8px;
+    width: 200px;
+}
+
+.filters button {
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.event-list {
+    display: grid;
+    gap: 15px;
+}
+
+.event-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+}
